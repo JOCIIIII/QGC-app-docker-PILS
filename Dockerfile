@@ -115,10 +115,10 @@ ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
 #    --net host \
 #    --device=/dev/dri:/dev/dri \
 #    --privileged \
-#    kestr3l/qgc-app:4.2.9
+#    jociiiii/qgc-app:4.2.9-pils
 
 # DOCKER_BUILDKIT=1 docker build \
 # --build-arg BASEIMAGE=ubuntu \
 # --build-arg BASETAG=22.04 \
-# -t kestr3l/qgc-app:4.2.9 \
+# -t jociiiii/qgc-app:4.2.9-pils \
 # -f ./Dockerfile .

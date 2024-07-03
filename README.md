@@ -1,3 +1,8 @@
+# QGrooundControl for PILS
+- added [LinkManager] to QGroundControl.ini
+- set autoConnectUDP TRUE
+  - another autoConnect set FALSE
+
 # QGrooundControl Packaged in Docker Container
 
 ## 0. Introduction
